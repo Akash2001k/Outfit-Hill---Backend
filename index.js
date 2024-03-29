@@ -21,6 +21,7 @@ app.get('/',(req,res)=>{
     res.send("<h1 style='color:purple'>Outfil - Hill Backend</h1>")
 })
 
+
 // =================== cors ========================
 const corsOptions = {
     origin: '*',
